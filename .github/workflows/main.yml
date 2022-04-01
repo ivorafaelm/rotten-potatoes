@@ -18,6 +18,6 @@ jobs:
       - name: Docker Login
         uses: docker/login-action@v1.14.1
         with:
-          username: ${{ secrets.DOCKER_HUB_USER}}
+          username: ${{ secrets.DOCKER_HUB_USER }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
